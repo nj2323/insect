@@ -10970,3 +10970,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* SideNav background override */
+#sideNav.bg-primary {
+  background-color: #1f2937 !important; /* 원하는 색 */
+}
