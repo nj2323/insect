@@ -10975,3 +10975,31 @@ section.resume-section .resume-section-content {
 #sideNav.bg-primary {
   background-color: #1f2937 !important; /* 원하는 색 */
 }
+
+/* ===== Theme overrides (custom) ===== */
+
+/* 1) SideNav background (left sidebar) */
+#sideNav.bg-primary {
+  background-color: #1f2937 !important; /* 메인 컬러 */
+}
+
+/* 2) Section heading / 강조 텍스트 / 링크 포인트 컬러 */
+.text-primary,
+a {
+  color: #60a5fa !important; /* 포인트 컬러 */
+}
+
+/* 3) 링크 hover */
+a:hover,
+a:focus {
+  color: #93c5fd !important; /* hover 포인트(조금 더 밝게) */
+}
+
+/* 4) Social icon 기본/hover */
+.social-icons .social-icon {
+  background-color: rgba(255, 255, 255, 0.18) !important; /* 사이드바 위에서 은은하게 */
+  color: #ffffff !important;
+}
+.social-icons .social-icon:hover {
+  background-color: #60a5fa !important; /* 포인트 컬러 */
+}
